@@ -61,15 +61,7 @@ If you want to know how I work and what I value, I keep a [Human User Guide](htt
 
 ## Say hi 👋
 
-<!-- Amanda: replace these placeholder URLs with your actual profiles -->
-- <picture><source media="(prefers-color-scheme: dark)" srcset="./social-contributions/icons/linkedin-light.svg"><img src="./social-contributions/icons/linkedin-dark.svg" width="16" height="16" align="top" alt="LinkedIn"></picture> [LinkedIn](https://www.linkedin.com/in/amandaksilver)
-- <picture><source media="(prefers-color-scheme: dark)" srcset="./social-contributions/icons/x-light.svg"><img src="./social-contributions/icons/x-dark.svg" width="16" height="16" align="top" alt="X"></picture> [X](https://x.com/amandaksilver)
-
-Or just open an issue — I read everything.
-
 <a href="./social-contributions/">
   <img src="./social-contributions/social-contributions.svg" alt="Amanda's social contributions over the last year — a GitHub-style heatmap of LinkedIn, blog, and X posts" width="100%">
 </a>
-
-<sub>[How it works](./social-contributions/)</sub>
 

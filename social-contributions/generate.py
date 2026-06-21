@@ -54,6 +54,9 @@ TEXT_DARK = "#7d8590"
 # Heading color (matches GitHub's "N contributions in the last year" foreground).
 HEAD_LIGHT = "#1f2328"
 HEAD_DARK = "#e6edf3"
+# Link color (matches GitHub's link blue) for the "How it works" affordance.
+LINK_LIGHT = "#0969da"
+LINK_DARK = "#58a6ff"
 
 # Per-post point weights. Higher = more effort / more "valuable".
 #   3 pts : original long-form / professional content (LinkedIn post, article, blog)
@@ -240,11 +243,14 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
         Arial, sans-serif; font-size: 10px; }}
       .scc-head {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif; font-size: 14px; font-weight: 400; }}
+      .scc-link {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+        Arial, sans-serif; font-size: 12px; }}
       .scc-cell {{ stroke: rgba(27,31,35,0.06); stroke-width: 1px; }}
       @media (prefers-color-scheme: dark) {{
         .scc-bg {{ fill: #0d1117; }}
         .scc-text {{ fill: {TEXT_DARK}; }}
         .scc-head {{ fill: {HEAD_DARK}; }}
+        .scc-link {{ fill: {LINK_DARK}; }}
         .scc-empty {{ fill: {LEVEL_COLORS_DARK[0]}; }}
         .scc-l1 {{ fill: {LEVEL_COLORS_DARK[1]}; }}
         .scc-l2 {{ fill: {LEVEL_COLORS_DARK[2]}; }}
@@ -264,6 +270,12 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     out.append(
         f'<text class="scc-head" fill="{HEAD_LIGHT}" x="4" y="{HEADER_H - 9}">'
         f'{total} social contributions in the last year</text>'
+    )
+    # "How it works" affordance, top-right on the same line. The whole chart is wrapped
+    # in a link to ./social-contributions/, so clicking this text navigates there.
+    out.append(
+        f'<text class="scc-link" fill="{LINK_LIGHT}" x="{width - RIGHT_PAD}" '
+        f'y="{HEADER_H - 9}" text-anchor="end">How it works</text>'
     )
 
     # Day-of-week labels (Mon / Wed / Fri).
