@@ -1,0 +1,57 @@
+name: Refresh social contributions chart
+
+# Keeps social-contributions.svg current. The generator always renders the trailing
+# 365 days ending "today", so re-running it rolls the window forward exactly like
+# GitHub's own contribution graph (which also only advances once per day).
+#
+#   * schedule  -> rolls the window even when no new posts arrive
+#   * push      -> when WorkIQ updates the data file, re-render immediately
+#   * dispatch  -> manual "Run workflow" button
+
+on:
+  schedule:
+    # Every 6 hours (UTC). Guarantees the day rolls over within hours of local midnight
+    # for any timezone.
+    - cron: "9 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "social-contributions/data/**"
+      - "social-contributions/generate.py"
+      - ".github/workflows/social-contributions.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-contributions
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      # Render "today" in Amanda's timezone so the window rolls at local midnight.
+      TZ: America/Los_Angeles
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate SVG
+        run: python social-contributions/generate.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- social-contributions/social-contributions.svg; then
+            echo "Chart already up to date."
+          else
+            git add social-contributions/social-contributions.svg
+            git commit -m "chore: refresh social contributions chart [skip ci]"
+            git push
+          fi
