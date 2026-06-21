@@ -23,7 +23,7 @@
     </style>
     
 <rect class="scc-bg" x="0" y="0" width="784" height="168" rx="6" fill="#ffffff"/>
-<text class="scc-head" fill="#1f2328" x="4" y="17">27 social contributions in the last year</text>
+<text class="scc-head" fill="#1f2328" x="4" y="17">32 social contributions in the last year</text>
 <text class="scc-link" fill="#0969da" x="772" y="17" text-anchor="end">How it works</text>
 <text class="scc-text" fill="#57606a" x="24" y="68" text-anchor="end">Mon</text>
 <text class="scc-text" fill="#57606a" x="24" y="96" text-anchor="end">Wed</text>
@@ -404,7 +404,7 @@
 <rect class="scc-cell scc-empty" fill="#ebedf0" x="744" y="100" width="11" height="11" rx="2" ry="2"><title>No posts on 2026-06-18</title></rect>
 <rect class="scc-cell scc-empty" fill="#ebedf0" x="744" y="114" width="11" height="11" rx="2" ry="2"><title>No posts on 2026-06-19</title></rect>
 <rect class="scc-cell scc-empty" fill="#ebedf0" x="744" y="128" width="11" height="11" rx="2" ry="2"><title>No posts on 2026-06-20</title></rect>
-<rect class="scc-cell scc-empty" fill="#ebedf0" x="758" y="44" width="11" height="11" rx="2" ry="2"><title>No posts on 2026-06-21</title></rect>
+<rect class="scc-cell scc-l2" fill="#6cb6ff" x="758" y="44" width="11" height="11" rx="2" ry="2"><title>5 repost on 2026-06-21 (score 5)</title></rect>
 <text class="scc-text" fill="#57606a" x="664" y="158" text-anchor="end">Less</text>
 <rect class="scc-empty" x="668" y="148" width="11" height="11" rx="2" fill="#ebedf0"/>
 <rect class="scc-l1" x="682" y="148" width="11" height="11" rx="2" fill="#b6e3ff"/>
