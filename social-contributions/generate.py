@@ -37,7 +37,8 @@ GAP = 3              # gap between squares (px)
 STRIDE = CELL + GAP  # 14
 RADIUS = 2           # rounded corners
 LEFT_GUTTER = 30     # space for Mon/Wed/Fri labels
-TOP_GUTTER = 20      # space for month labels
+HEADER_H = 26        # "N contributions in the last year" heading (top-left, GitHub-style)
+MONTH_H = 18         # space for month labels
 RIGHT_PAD = 12
 LEGEND_H = 26
 
@@ -50,6 +51,9 @@ LEVEL_COLORS_DARK = ["#161b22", "#0a3069", "#1f6feb", "#2f81f7", "#79c0ff"]
 # Text / chrome colors.
 TEXT_LIGHT = "#57606a"
 TEXT_DARK = "#7d8590"
+# Heading color (matches GitHub's "N contributions in the last year" foreground).
+HEAD_LIGHT = "#1f2328"
+HEAD_DARK = "#e6edf3"
 
 # Per-post point weights. Higher = more effort / more "valuable".
 #   3 pts : original long-form / professional content (LinkedIn post, article, blog)
@@ -213,8 +217,9 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     last_col_start = sunday_on_or_before(asof)
     first_col_start = last_col_start - timedelta(weeks=WEEKS - 1)
 
+    grid_top = HEADER_H + MONTH_H  # top of the day squares
     width = LEFT_GUTTER + WEEKS * STRIDE + RIGHT_PAD
-    height = TOP_GUTTER + 7 * STRIDE + LEGEND_H
+    height = grid_top + 7 * STRIDE + LEGEND_H
 
     out = []
     # No fixed width/height -> the viewBox lets the image scale to its container,
@@ -233,10 +238,13 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     <style>
       .scc-text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif; font-size: 10px; }}
+      .scc-head {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+        Arial, sans-serif; font-size: 14px; font-weight: 400; }}
       .scc-cell {{ stroke: rgba(27,31,35,0.06); stroke-width: 1px; }}
       @media (prefers-color-scheme: dark) {{
         .scc-bg {{ fill: #0d1117; }}
         .scc-text {{ fill: {TEXT_DARK}; }}
+        .scc-head {{ fill: {HEAD_DARK}; }}
         .scc-empty {{ fill: {LEVEL_COLORS_DARK[0]}; }}
         .scc-l1 {{ fill: {LEVEL_COLORS_DARK[1]}; }}
         .scc-l2 {{ fill: {LEVEL_COLORS_DARK[2]}; }}
@@ -252,9 +260,15 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
         f'rx="6" fill="#ffffff"/>'
     )
 
+    # Heading, top-left — mirrors GitHub's "N contributions in the last year".
+    out.append(
+        f'<text class="scc-head" fill="{HEAD_LIGHT}" x="4" y="{HEADER_H - 9}">'
+        f'{total} social contributions in the last year</text>'
+    )
+
     # Day-of-week labels (Mon / Wed / Fri).
     for row, label in DOW_LABELS.items():
-        y = TOP_GUTTER + row * STRIDE + CELL - 1
+        y = grid_top + row * STRIDE + CELL - 1
         out.append(
             f'<text class="scc-text" fill="{TEXT_LIGHT}" x="{LEFT_GUTTER - 6}" y="{y}" '
             f'text-anchor="end">{label}</text>'
@@ -271,7 +285,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
                     x = LEFT_GUTTER + w * STRIDE
                     out.append(
                         f'<text class="scc-text" fill="{TEXT_LIGHT}" x="{x}" '
-                        f'y="{TOP_GUTTER - 7}">{MONTHS[d.month - 1]}</text>'
+                        f'y="{grid_top - 6}">{MONTHS[d.month - 1]}</text>'
                     )
                     placed_month = (d.year, d.month)
                 break
@@ -284,7 +298,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
             if d > asof:
                 continue
             x = LEFT_GUTTER + w * STRIDE
-            y = TOP_GUTTER + row * STRIDE
+            y = grid_top + row * STRIDE
             score = day_score.get(d, 0)
             level = score_to_level(score)
             cls = "scc-cell scc-empty" if level == 0 else f"scc-cell scc-l{level}"
@@ -309,7 +323,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
             )
 
     # Legend: "Less [squares] More" bottom-right.
-    legend_y = TOP_GUTTER + 7 * STRIDE + 6
+    legend_y = grid_top + 7 * STRIDE + 6
     n_swatches = len(LEVEL_COLORS_LIGHT)
     lx = width - RIGHT_PAD - (n_swatches * STRIDE) - 34
     out.append(
@@ -327,12 +341,6 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     out.append(
         f'<text class="scc-text" fill="{TEXT_LIGHT}" x="{mx}" '
         f'y="{legend_y + CELL - 1}">More</text>'
-    )
-
-    # Total caption bottom-left.
-    out.append(
-        f'<text class="scc-text" fill="{TEXT_LIGHT}" x="{LEFT_GUTTER}" '
-        f'y="{legend_y + CELL - 1}">{total} social posts in the last year</text>'
     )
 
     out.append("</svg>")

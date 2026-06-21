@@ -67,10 +67,6 @@ If you want to know how I work and what I value, I keep a [Human User Guide](htt
 
 Or just open an issue — I read everything.
 
----
-
-## 📣 Social contributions over the last year
-
 <a href="./social-contributions/">
   <img src="./social-contributions/social-contributions.svg" alt="Amanda's social contributions over the last year — a GitHub-style heatmap of LinkedIn, blog, and X posts" width="100%">
 </a>
