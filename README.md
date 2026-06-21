@@ -62,8 +62,8 @@ If you want to know how I work and what I value, I keep a [Human User Guide](htt
 ## Say hi 👋
 
 <!-- Amanda: replace these placeholder URLs with your actual profiles -->
-- 💼 [LinkedIn](https://www.linkedin.com/in/amandaksilver)
-- 🐦 [X](https://x.com/amandaksilver)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="./social-contributions/icons/linkedin-light.svg"><img src="./social-contributions/icons/linkedin-dark.svg" width="16" height="16" align="top" alt="LinkedIn"></picture> [LinkedIn](https://www.linkedin.com/in/amandaksilver)
+- <picture><source media="(prefers-color-scheme: dark)" srcset="./social-contributions/icons/x-light.svg"><img src="./social-contributions/icons/x-dark.svg" width="16" height="16" align="top" alt="X"></picture> [X](https://x.com/amandaksilver)
 
 Or just open an issue — I read everything.
 
