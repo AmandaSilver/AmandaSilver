@@ -31,7 +31,12 @@ FOR EACH NEW POST since the last run, append one line with this exact shape:
 {"date":"YYYY-MM-DD","platform":"<platform>","type":"<type>","url":"<permalink>","title":"<short text or empty>"}
 
 FIELD RULES:
-- date     : the calendar date the post was published, in my local timezone (America/Los_Angeles), as YYYY-MM-DD.
+- date     : the calendar date in my local timezone (America/Los_Angeles), as YYYY-MM-DD,
+             that *I* performed the action — i.e. the day I published or amplified it.
+             * For my own original posts/articles/tweets: the date I published it.
+             * For a REPOST / RESHARE / RETWEET / QUOTE of someone else's content: the date
+               *I* reshared it (e.g. today when I hit "repost"), NOT the original author's
+               publish date. This is an activity graph, so it must reflect when I was active.
 - platform : one of "linkedin", "x", "blog".
 - type     : classify precisely —
     * LinkedIn original post                -> "post"
