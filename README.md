@@ -71,7 +71,7 @@ Or just open an issue — I read everything.
 
 ## 📣 Social contributions over the last year
 
-The same shape as GitHub's contribution graph — but for what I share, not what I commit. <sub>([How it works](./social-contributions/))</sub>
+<sub>[How it works](./social-contributions/)</sub>
 
 <a href="./social-contributions/">
   <img src="./social-contributions/social-contributions.svg" alt="Amanda's social contributions over the last year — a GitHub-style heatmap of LinkedIn, blog, and X posts" width="100%">
