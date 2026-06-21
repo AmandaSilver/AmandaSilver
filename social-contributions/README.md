@@ -62,7 +62,7 @@ heartbeat that adds entries over time.
 
 | Field | Required | Notes |
 | --- | --- | --- |
-| `date` | yes | `YYYY-MM-DD` (the post's local date). |
+| `date` | yes | `YYYY-MM-DD` in your local timezone — the day **you** were active. For your own posts, the publish date; for a **repost/reshare/retweet**, the date **you** amplified it (not the original author's date). |
 | `platform` | yes | `linkedin`, `x` (or `twitter`), `blog`, `medium`, `substack`, … |
 | `type` | yes | `post`, `article`, `tweet`, `quote`, `retweet`, `repost`, `share`, … |
 | `url` | recommended | Used to **de-duplicate** repeated heartbeat entries. |
