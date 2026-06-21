@@ -121,6 +121,29 @@ local `social-posts.jsonl`, which [`publish.py`](./publish.py) then pushes to th
 
 ---
 
+## Backfilling older X (Twitter) history
+
+X's live timeline only scrolls back a limited distance, so Scout can't see retweets/tweets
+from earlier in the year. Your official **account archive** has the complete history. To fill
+the gaps:
+
+1. On X: **Settings → Your account → Download an archive of your data**. When it's ready,
+   unzip it and find `data/tweets.js`.
+2. Run the importer once — it appends any missing posts to your local file (append-only,
+   de-duplicated by URL):
+   ```powershell
+   python social-contributions/import_x_archive.py "C:\path\to\archive\data\tweets.js"
+   ```
+3. Then publish as usual: `python social-contributions/publish.py --src "$env:USERPROFILE\social-posts.jsonl"`.
+
+Useful flags: `--until 2026-04-01` (only import older posts, to avoid overlapping Scout's
+recent live captures), `--since`, `--include-replies`, `--no-retweets`, and `--dry-run` to
+preview. It classifies `RT @…` as `retweet` and everything else as `tweet`, converts archive
+timestamps to your local (Pacific) calendar date, and skips `@`-replies by default.
+Standard-library only — no network, no credentials.
+
+---
+
 ## Security model
 
 This pipeline is deliberately built so that **automation never holds a credential that can
