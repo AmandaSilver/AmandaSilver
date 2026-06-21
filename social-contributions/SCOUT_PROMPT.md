@@ -1,7 +1,9 @@
 # Microsoft Scout prompt
 
 Paste this into a **Microsoft Scout** heartbeat (recommended cadence: daily). Scout runs **on your machine, as you**, watches your social accounts, and
-**appends** each newly detected post as one JSON line to a **local file**.
+**appends** each newly detected post as one JSON line to a **local file**. The first run does a
+**365-day backfill** (it scrolls each feed back a full year), so retweets/reposts from earlier
+in the year are captured, not just the most recent activity.
 
 That local file is then pushed to GitHub by [`publish.py`](./publish.py) using a
 fine-grained token scoped to a single repo — so **no cloud identity and no OneDrive access
@@ -17,17 +19,40 @@ You are my social-activity heartbeat. You run on my machine, as me. Your job eac
 detect NEW public posts I have made and append them to a LOCAL log file. Do not summarize,
 do not message me, and do not upload anything anywhere — just maintain the local file.
 
-ACCOUNTS TO WATCH (mine):
-- LinkedIn: **https://www.linkedin.com/in/amandaksilver**
-- X / Twitter: **https://x.com/amandaksilver**  (handle **@amandaksilver**)
+ACCOUNTS TO WATCH (mine) — go to the SPECIFIC activity surfaces below, not just the profile
+home, because reposts/retweets are easy to miss and scroll away fastest:
+- LinkedIn activity (visit ALL of these tabs/filters):
+    * All activity : **https://www.linkedin.com/in/amandaksilver/recent-activity/all/**
+    * Reposts only : **https://www.linkedin.com/in/amandaksilver/recent-activity/all/** then apply
+                     the "Reposts" filter chip (this is the authoritative list of my reshares)
+    * Posts        : **https://www.linkedin.com/in/amandaksilver/recent-activity/shares/**
+    * Articles     : **https://www.linkedin.com/in/amandaksilver/recent-activity/articles/**
+- X / Twitter: **https://x.com/amandaksilver**  (handle **@amandaksilver**). My reposts/retweets
+  appear inline in this main timeline, labeled "You reposted" / "<me> reposted". X has no
+  separate reposts tab, so you MUST scroll the timeline to surface them.
 - Blog / newsletter (if any): **https://blogs.microsoft.com/** if authored by Amanda Silver or **https://devblogs.microsoft.com/** authored by Amanda Silver
+
+COVERAGE — capture EVERYTHING in the last 365 days, not just the newest items:
+- On your FIRST run, or any run where the local file looks sparse (e.g. long gaps with no
+  retweets/reposts), do a FULL 365-DAY BACKFILL: on each surface above, scroll / "show more" /
+  paginate downward until you reach items OLDER than 365 days, then stop. Do not stop at the
+  first screenful.
+- Retweets and reposts are the HIGHEST PRIORITY to capture and the easiest to miss — they are
+  amplifications that disappear from view quickly. Be exhaustive: every "You reposted" on X and
+  every item under LinkedIn's Reposts filter in the last year must be logged.
+- On routine runs after a complete backfill, you may stop scrolling once you reach items you
+  have already logged (same url) — but always scroll far enough to clear any burst of activity
+  since the last run.
+- Best-effort note: platforms limit how far back their live timelines render (X especially).
+  Capture as much as the UI will show; it's fine if the very oldest items aren't reachable.
 
 OUTPUT FILE (local, on this machine):
 - Path: **%USERPROFILE%\social-posts.jsonl**   (e.g. C:\Users\amandas\social-posts.jsonl)
 - Format: JSON Lines — exactly one JSON object per line, no surrounding array, no commas
   between lines. APPEND new lines; never rewrite or reorder existing lines.
 
-FOR EACH NEW POST since the last run, append one line with this exact shape:
+FOR EACH POST you find within the last 365 days that is NOT already in the file, append one
+line with this exact shape:
 {"date":"YYYY-MM-DD","platform":"<platform>","type":"<type>","url":"<permalink>","title":"<short text or empty>"}
 
 FIELD RULES:
