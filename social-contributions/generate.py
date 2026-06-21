@@ -244,7 +244,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
       .scc-head {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif; font-size: 14px; font-weight: 400; }}
       .scc-link {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-        Arial, sans-serif; font-size: 12px; }}
+        Arial, sans-serif; font-size: 14px; }}
       .scc-cell {{ stroke: rgba(27,31,35,0.06); stroke-width: 1px; }}
       @media (prefers-color-scheme: dark) {{
         .scc-bg {{ fill: #0d1117; }}
