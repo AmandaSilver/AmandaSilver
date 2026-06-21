@@ -1,7 +1,6 @@
 # Microsoft Scout prompt
 
-Paste this into a **Microsoft Scout** heartbeat (recommended cadence: hourly or a few
-times per day). Scout runs **on your machine, as you**, watches your social accounts, and
+Paste this into a **Microsoft Scout** heartbeat (recommended cadence: daily). Scout runs **on your machine, as you**, watches your social accounts, and
 **appends** each newly detected post as one JSON line to a **local file**.
 
 That local file is then pushed to GitHub by [`publish.py`](./publish.py) using a
@@ -21,7 +20,7 @@ do not message me, and do not upload anything anywhere — just maintain the loc
 ACCOUNTS TO WATCH (mine):
 - LinkedIn: **https://www.linkedin.com/in/amandaksilver**
 - X / Twitter: **https://x.com/amandaksilver**  (handle **@amandaksilver**)
-- Blog / newsletter (if any): **<add blog URL here, or remove this line>**
+- Blog / newsletter (if any): **https://blogs.microsoft.com/** if authored by Amanda Silver or **https://devblogs.microsoft.com/** authored by Amanda Silver
 
 OUTPUT FILE (local, on this machine):
 - Path: **%USERPROFILE%\social-posts.jsonl**   (e.g. C:\Users\amandas\social-posts.jsonl)
