@@ -2,9 +2,8 @@
 """
 publish.py -- push the local social-posts log to GitHub (the "push model").
 
-This is the client-side step that REPLACES any cloud automation that used to read
-your OneDrive on your behalf. It runs on YOUR machine (right after Microsoft Scout
-updates the local log) and commits the data file straight to your profile repo
+This is the client-side step. It runs on YOUR machine (right after you import your
+posts into the local log) and commits the data file straight to your profile repo
 using a *fine-grained* GitHub token scoped to ONLY that one repository.
 
 Why this is the secure design
@@ -110,7 +109,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description="Push the local social-posts log to GitHub.")
     here = os.path.dirname(os.path.abspath(__file__))
     ap.add_argument("--src", default=os.path.join(here, "data", "social-posts.jsonl"),
-                    help="Local JSONL file Scout maintains (default: the repo's data file).")
+                    help="Local JSONL log to push (default: the repo's data file).")
     ap.add_argument("--repo", default=DEFAULT_REPO, help="owner/repo to publish to.")
     ap.add_argument("--branch", default=DEFAULT_BRANCH, help="Target branch.")
     ap.add_argument("--dest", default=DEFAULT_DEST, help="Path within the repo.")

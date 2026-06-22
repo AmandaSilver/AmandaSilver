@@ -17,10 +17,14 @@ today*, so each run rolls the window forward exactly like GitHub's graph (which 
 advances once per day).
 
 ```
-Microsoft Scout (heartbeat, runs on YOUR machine, as you)
-        │  appends one line per detected post
+Your own posts  ──fed into a local log via──►
+   • import_linkedin_archive.py   (your LinkedIn data export)
+   • import_x_archive.py          (your X account archive)
+   • import_blog_rss.py           (your blog's public RSS feed)
+   • add_post.py                  (one-off "I just posted" entries)
+        │  each appends lines, de-duplicated by URL
         ▼
-local file: social-posts.jsonl   ◄── the status log (stays on your machine)
+local file: social-posts.jsonl   ◄── the log (stays on your machine)
         │  publish.py  pushes via a fine-grained GitHub token (1 repo, Contents:write)
         ▼
 repo: social-contributions/data/social-posts.jsonl
@@ -29,16 +33,17 @@ repo: social-contributions/data/social-posts.jsonl
 repo: social-contributions/social-contributions.svg  ──►  embedded in README.md
 ```
 
-This is a **push model**: the only thing that touches your accounts (Scout) runs locally as
-you, and it *pushes* the result to GitHub. **No cloud identity, no OneDrive access, and no
-Microsoft Graph token is ever handed to automation** — see [Security model](#security-model).
+This is a **push model**: the importers run locally as you — reading your own official
+platform data exports and public feeds — and *push* the result to GitHub. **No cloud
+identity, no OneDrive access, and no Microsoft Graph token is ever handed to automation** —
+see [Security model](#security-model).
 
 Two refresh drivers keep it current:
 
 | Driver | What it does | Cadence |
 | --- | --- | --- |
-| **`publish.py`** (client-side) | Pushes the latest local `social-posts.jsonl` into the repo using a fine-grained GitHub PAT, which triggers the Action to re-render. | After Scout runs / scheduled task |
-| **GitHub Action** (`.github/workflows/social-contributions.yml`) | Re-runs `generate.py` and commits the SVG if it changed. Rolls the trailing-year window even when no new posts arrive. Holds no Microsoft credentials. | Every 6 h + on data push |
+| **`publish.py`** (client-side) | Pushes the latest local `social-posts.jsonl` into the repo using a fine-grained GitHub PAT, which triggers the Action to re-render. | After you import / scheduled task |
+| **GitHub Action** (`.github/workflows/social-contributions.yml`) | Pulls any public blog RSS feeds listed in `feeds.txt`, re-runs `generate.py`, and commits the SVG (and data) if changed. Rolls the trailing-year window even when no new posts arrive. Holds no Microsoft credentials. | Every 6 h + on data push |
 
 > **Want literally per-visit freshness?** Host `generate.py` behind a tiny serverless
 > endpoint that returns the SVG per request and embed that URL instead. The scheduled
@@ -48,10 +53,10 @@ Two refresh drivers keep it current:
 
 ## Data format (the status log)
 
-**File:** `social-posts.jsonl` — a **local file** on your machine that Microsoft Scout
-maintains (it never has to leave your machine except as the committed copy in this repo).
-It's **JSON Lines** (one JSON object per line), which is append-friendly and suits a
-heartbeat that adds entries over time.
+**File:** `social-posts.jsonl` — a **local file** on your machine that the importers
+maintain (it never has to leave your machine except as the committed copy in this repo).
+It's **JSON Lines** (one JSON object per line), which is append-friendly and suits a log
+that grows over time.
 
 ```jsonl
 {"date": "2026-06-19", "platform": "linkedin", "type": "post",    "url": "https://www.linkedin.com/posts/...", "title": "Work IQ APIs are GA"}
@@ -65,7 +70,7 @@ heartbeat that adds entries over time.
 | `date` | yes | `YYYY-MM-DD` in your local timezone — the day **you** were active. For your own posts, the publish date; for a **repost/reshare/retweet**, the date **you** amplified it (not the original author's date). |
 | `platform` | yes | `linkedin`, `x` (or `twitter`), `blog`, `medium`, `substack`, … |
 | `type` | yes | `post`, `article`, `tweet`, `quote`, `retweet`, `repost`, `share`, … |
-| `url` | recommended | Used to **de-duplicate** repeated heartbeat entries. |
+| `url` | recommended | Used to **de-duplicate** repeated entries. |
 | `title` | optional | Used in the tooltip; helps dedup when there's no URL. |
 
 A plain JSON array or `{"posts": [...]}` document is also accepted.
@@ -113,34 +118,75 @@ No third-party dependencies — standard-library Python 3.9+.
 
 ---
 
-## The Microsoft Scout prompt
+## Importing your posts
 
-Configure a Scout heartbeat with the prompt in [`SCOUT_PROMPT.md`](./SCOUT_PROMPT.md).
-It tells Scout to detect new LinkedIn/blog/X activity and **append** matching lines to a
-local `social-posts.jsonl`, which [`publish.py`](./publish.py) then pushes to the repo.
+You build the local `social-posts.jsonl` from your own data — your official platform
+**data exports**, your blog's **public RSS feed**, or quick **manual** entries. Each importer
+is append-only and de-duplicates by URL, so you can re-run them anytime. All are
+standard-library Python — no third-party packages.
 
----
+### From your LinkedIn data export
 
-## Backfilling older X (Twitter) history
+LinkedIn → **Settings & Privacy → Data Privacy → Get a copy of your data**. Pick the archive
+that includes your posts; when it's emailed to you, unzip it and find `Shares.csv`.
 
-X's live timeline only scrolls back a limited distance, so Scout can't see retweets/tweets
-from earlier in the year. Your official **account archive** has the complete history. To fill
-the gaps:
+```powershell
+python social-contributions/import_linkedin_archive.py "C:\path\to\export\Shares.csv"
+```
 
-1. On X: **Settings → Your account → Download an archive of your data**. When it's ready,
-   unzip it and find `data/tweets.js`.
-2. Run the importer once — it appends any missing posts to your local file (append-only,
-   de-duplicated by URL):
-   ```powershell
-   python social-contributions/import_x_archive.py "C:\path\to\archive\data\tweets.js"
-   ```
-3. Then publish as usual: `python social-contributions/publish.py --src "$env:USERPROFILE\social-posts.jsonl"`.
+It classifies a row with a `SharedUrl` as a **repost** (you reshared someone else's content),
+a `/pulse/` link as an **article**, and everything else as a **post**. Flags: `--since`,
+`--until`, `--dry-run`.
 
-Useful flags: `--until 2026-04-01` (only import older posts, to avoid overlapping Scout's
-recent live captures), `--since`, `--include-replies`, `--no-retweets`, and `--dry-run` to
-preview. It classifies `RT @…` as `retweet` and everything else as `tweet`, converts archive
-timestamps to your local (Pacific) calendar date, and skips `@`-replies by default.
-Standard-library only — no network, no credentials.
+### From your X (Twitter) account archive
+
+X → **Settings → Your account → Download an archive of your data**. When it's ready, unzip it
+and find `data/tweets.js`.
+
+```powershell
+python social-contributions/import_x_archive.py "C:\path\to\archive\data\tweets.js"
+```
+
+It classifies `RT @…` as a **retweet** and everything else as a **tweet**, converts archive
+timestamps to your local (Pacific) calendar date, and skips `@`-replies by default. Flags:
+`--since`, `--until`, `--include-replies`, `--no-retweets`, `--dry-run`.
+
+### From your blog's RSS feed
+
+Point it at one or more public feeds (e.g. a DevBlogs author feed,
+`https://devblogs.microsoft.com/author/<you>/feed/`):
+
+```powershell
+python social-contributions/import_blog_rss.py https://example.com/feed/
+```
+
+Each item becomes a **blog post** dated by its `pubDate`. On a shared/multi-author feed, add
+`--author "Your Name"` to keep only your items. Flags: `--since`, `--until`, `--platform`,
+`--dry-run`.
+
+**Hands-off option:** list your feed URLs in [`feeds.txt`](./feeds.txt) (one per line) and the
+render Action pulls them automatically on its schedule — no local step, no credentials. For a
+shared feed, set a repository variable `RSS_AUTHOR` to your display name. Blog posts are the
+only source that can refresh automatically; LinkedIn and X come from your manual exports.
+
+### Add one post by hand
+
+For the "I just posted something" case — no export needed:
+
+```powershell
+python social-contributions/add_post.py --platform linkedin --type post `
+  --url "https://www.linkedin.com/posts/..." --title "Work IQ APIs are GA"
+```
+
+`--date` defaults to today (your local Pacific date).
+
+### Then publish
+
+After any import, push the log so the chart re-renders:
+
+```powershell
+python social-contributions/publish.py --src "$env:USERPROFILE\social-posts.jsonl"
+```
 
 ---
 
@@ -151,14 +197,14 @@ read your files.** The design separates the two concerns:
 
 | Component | Where it runs | Identity it uses | What it can touch |
 | --- | --- | --- | --- |
-| **Microsoft Scout** | Your machine | You (interactive, local) | Reads your own social accounts; writes one local file |
+| **Importers** (`import_*`, `add_post.py`) | Your machine | You (interactive, local) | Read your own data exports / public RSS; write one local file |
 | **`publish.py`** | Your machine (or a local scheduled task) | A **fine-grained GitHub PAT** | Edits **one repo**, Contents only — nothing else |
 | **GitHub Action** | GitHub-hosted runner | The repo's built-in `GITHUB_TOKEN` | Commits the re-rendered SVG to this repo |
 
 Why this is the secure shape:
 
 - **No on-behalf-of (OBO) cloud agent.** Nothing runs unattended *as you* against Microsoft
-  Graph. The component that reads your accounts (Scout) only runs when you run it, locally.
+  Graph. The component that builds the log (the importers) only runs when you run it, locally.
 - **No OneDrive / Graph token in CI.** The GitHub Action holds zero Microsoft credentials —
   it only renders committed data, so a poisoned data file can at worst produce a wrong chart,
   never exfiltrate anything (the generator is stdlib-only: no network, no `eval`/`exec`, and

@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 """Import your X (Twitter) account archive into social-posts.jsonl.
 
-X's live timeline only scrolls back so far, so old retweets/tweets can't be picked
-up by Scout. Your official account archive (Settings -> "Download an archive of your
-data") contains the *complete* history in `data/tweets.js`. This script reads that
-file and appends any missing posts to your local social-posts.jsonl (append-only,
+Your official account archive (Settings -> "Download an archive of your data")
+contains the *complete* history of your posts in `data/tweets.js`. This script reads
+that file and appends any missing posts to your local social-posts.jsonl (append-only,
 de-duplicated by url), so the contribution chart reflects your full year.
 
 Usage (PowerShell):
     python import_x_archive.py "C:\\path\\to\\twitter-archive\\data\\tweets.js"
 
 Common options:
-    --until 2026-04-01     only import posts on/before this date (avoid overlapping
-                           Scout's recent live captures, which use different URLs)
+    --until 2026-04-01     only import posts on/before this date
     --since 2025-06-21     only import posts on/after this date
     --include-replies      also count @-replies as posts (default: skipped)
     --no-retweets          skip retweets (default: retweets ARE imported)
