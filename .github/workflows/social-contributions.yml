@@ -1,13 +1,17 @@
 name: Refresh social contributions chart
 
-# Render-only. Keeps social-contributions.svg current. The generator always renders the
-# trailing 365 days ending "today", so re-running it rolls the window forward exactly like
-# GitHub's own contribution graph (which also only advances once per day).
+# Render + automatable RSS pull. Keeps social-contributions.svg current. The generator always
+# renders the trailing 365 days ending "today", so re-running it rolls the window forward
+# exactly like GitHub's own contribution graph (which also only advances once per day).
 #
-# This workflow holds NO Microsoft credentials. The data file is pushed from your machine
-# by social-contributions/publish.py (the "push model"); this Action just re-renders the SVG.
+# This workflow holds NO Microsoft credentials and never logs into any account. It only:
+#   1. pulls any configured PUBLIC blog RSS feeds (social-contributions/feeds.txt) and appends
+#      new blog posts to the committed data file, and
+#   2. re-renders the SVG.
+# Your LinkedIn/X history comes from your own official data exports, imported locally and
+# pushed by social-contributions/publish.py (the "push model").
 #
-#   * schedule  -> rolls the window even when no new posts arrive
+#   * schedule  -> pulls RSS + rolls the window even when nothing else changed
 #   * push      -> when publish.py updates the data file, re-render immediately
 #   * dispatch  -> manual "Run workflow" button
 
@@ -44,6 +48,25 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Import blog RSS (public feeds only)
+        env:
+          RSS_AUTHOR: ${{ vars.RSS_AUTHOR }}
+        run: |
+          feeds=()
+          while IFS= read -r line; do
+            line="${line%%$'\r'}"
+            case "$line" in ''|'#'*) continue ;; esac
+            feeds+=("$line")
+          done < social-contributions/feeds.txt
+          if [ ${#feeds[@]} -eq 0 ]; then
+            echo "No feeds configured in social-contributions/feeds.txt; skipping RSS import."
+            exit 0
+          fi
+          extra=()
+          if [ -n "$RSS_AUTHOR" ]; then extra+=(--author "$RSS_AUTHOR"); fi
+          python social-contributions/import_blog_rss.py "${feeds[@]}" "${extra[@]}" \
+            --out social-contributions/data/social-posts.jsonl
+
       - name: Generate SVG
         run: python social-contributions/generate.py
 
@@ -51,10 +74,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- social-contributions/social-contributions.svg; then
-            echo "Chart already up to date."
+          git add social-contributions/social-contributions.svg social-contributions/data/social-posts.jsonl
+          if git diff --cached --quiet; then
+            echo "Chart and data already up to date."
           else
-            git add social-contributions/social-contributions.svg
             git commit -m "chore: refresh social contributions chart [skip ci]"
             git push
           fi

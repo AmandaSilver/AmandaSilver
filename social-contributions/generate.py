@@ -121,7 +121,7 @@ def load_posts(path: str) -> list[dict]:
     except json.JSONDecodeError:
         pass
 
-    # Fall back to JSONL (one object per line) — natural for an appended heartbeat log.
+    # Fall back to JSONL (one object per line) — natural for an appended log.
     posts = []
     for line in raw.splitlines():
         line = line.strip().rstrip(",")

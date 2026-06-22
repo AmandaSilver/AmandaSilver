@@ -1,0 +1,10 @@
+# Blog RSS feeds to pull automatically (one URL per line).
+# The render Action fetches these on its schedule and appends any new blog posts to
+# data/social-posts.jsonl — no credentials, no login. Lines starting with # are ignored.
+#
+# Add your blog/DevBlogs author feed(s) below, e.g.:
+# https://devblogs.microsoft.com/author/<your-slug>/feed/
+#
+# Tip: for a shared/multi-author feed, set a repository variable RSS_AUTHOR to your
+# display name so only your posts are imported (Settings -> Secrets and variables ->
+# Actions -> Variables).
