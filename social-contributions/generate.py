@@ -269,7 +269,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     # Heading, top-left — mirrors GitHub's "N contributions in the last year".
     out.append(
         f'<text class="scc-head" fill="{HEAD_LIGHT}" x="4" y="{HEADER_H - 9}">'
-        f'{total} social contributions in the last year</text>'
+        f'{total} social media contributions in the last year</text>'
     )
     # "How it works" affordance, top-right on the same line. The whole chart is wrapped
     # in a link to ./social-contributions/, so clicking this text navigates there.
