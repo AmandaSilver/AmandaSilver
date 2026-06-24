@@ -127,16 +127,24 @@ standard-library Python — no third-party packages.
 
 ### From your LinkedIn data export
 
-LinkedIn → **Settings & Privacy → Data Privacy → Get a copy of your data**. Pick the archive
-that includes your posts; when it's emailed to you, unzip it and find `Shares.csv`.
+LinkedIn → **Settings & Privacy → Data Privacy → Get a copy of your data**. Request the
+**complete archive** — the larger one that includes your posts; the fast "Basic" export does
+not. When the ZIP is emailed to you, unzip it and point the importer at the **unzipped folder**:
 
 ```powershell
-python social-contributions/import_linkedin_archive.py "C:\path\to\export\Shares.csv"
+python social-contributions/import_linkedin_archive.py "C:\path\to\unzipped-linkedin-export"
 ```
 
-It classifies a row with a `SharedUrl` as a **repost** (you reshared someone else's content),
-a `/pulse/` link as an **article**, and everything else as a **post**. Flags: `--since`,
-`--until`, `--dry-run`.
+It auto-discovers and reads every post type the archive contains:
+
+- `Shares_*.csv` — your posts and reshares-with-commentary
+- `InstantReposts_*.csv` — plain reposts (no commentary)
+- `Articles/**/*.html` — your long-form articles
+
+and classifies each as an **article** (a `/pulse/` link or an `Articles/*.html` file), a
+**repost** (a `Shares` row carrying a `SharedUrl`, or any `InstantReposts` row), or a **post**
+(your own original update). You can also point it at a single `Shares_*.csv` or
+`InstantReposts_*.csv`. Flags: `--since`, `--until`, `--dry-run`.
 
 ### From your X (Twitter) account archive
 
@@ -150,6 +158,10 @@ python social-contributions/import_x_archive.py "C:\path\to\archive\data\tweets.
 It classifies `RT @…` as a **retweet** and everything else as a **tweet**, converts archive
 timestamps to your local (Pacific) calendar date, and skips `@`-replies by default. Flags:
 `--since`, `--until`, `--include-replies`, `--no-retweets`, `--dry-run`.
+
+> **Big archive?** A long-lived account can export tens of thousands of tweets. Since the
+> chart only ever shows a rolling 365-day window, you can import just the recent span with
+> `--since YYYY-MM-DD` to keep the data file lean — older posts would never render anyway.
 
 ### From your blog's RSS feed
 
