@@ -220,6 +220,15 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     last_col_start = sunday_on_or_before(asof)
     first_col_start = last_col_start - timedelta(weeks=WEEKS - 1)
 
+    # Heading count must match what the grid actually shows: count only posts within
+    # the rendered window [first_col_start, asof], mirroring GitHub's "N contributions
+    # in the last year" (which reflects the displayed year, not the full history).
+    shown_total = 0
+    d = first_col_start
+    while d <= asof:
+        shown_total += sum(day_counts.get(d, {}).values())
+        d += timedelta(days=1)
+
     grid_top = HEADER_H + MONTH_H  # top of the day squares
     width = LEFT_GUTTER + WEEKS * STRIDE + RIGHT_PAD
     height = grid_top + 7 * STRIDE + LEGEND_H
@@ -269,7 +278,7 @@ def build_svg(day_score, day_counts, total, asof: date) -> str:
     # Heading, top-left — mirrors GitHub's "N contributions in the last year".
     out.append(
         f'<text class="scc-head" fill="{HEAD_LIGHT}" x="4" y="{HEADER_H - 9}">'
-        f'{total} social media contributions in the last year</text>'
+        f'{shown_total} social media contributions in the last year</text>'
     )
     # "How it works" affordance, top-right on the same line. The whole chart is wrapped
     # in a link to ./social-contributions/, so clicking this text navigates there.
