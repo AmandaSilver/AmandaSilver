@@ -229,13 +229,3 @@ Store it on your machine as the `GH_PAT` environment variable. **Never commit it
 > **Public-repo note:** the render Action only runs on `push` to `main`, `schedule`, and
 > manual `workflow_dispatch` — never on `pull_request` from forks — so no fork PR can reach
 > a credentialed job.
-
-### If you want the file to live in M365 instead
-
-If a hard requirement says the status log must stay in Microsoft 365 and GitHub must *pull*
-it, don't use a personal-OneDrive app permission (those are tenant-wide — `Files.Read.All` —
-which is *more* access, not less). Instead put the file in a **dedicated SharePoint site**
-and grant a purpose-built app **`Sites.Selected`** read access to just that one site, and
-have the Action authenticate via **GitHub→Entra OIDC federation** (no stored secret). That's
-the least-privilege *pull* design — but the **push model above is simpler and strictly safer**,
-so prefer it unless you truly need the pull.
