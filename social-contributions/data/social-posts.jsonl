@@ -1,62 +1,456 @@
-{"date":"2026-05-22","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/same-mission-new-chapter-amanda-k-silver-nsgfc","title":"Same mission, new chapter"}
-{"date":"2025-11-11","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/visual-studio-2026-now-generally-available-amanda-k-silver-dlfgc","title":"Visual Studio 2026 is now Generally Available!"}
-{"date":"2025-10-14","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/future-always-starts-developers-amanda-k-silver-hpyic","title":"The future always starts with developers!"}
-{"date":"2025-04-04","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/celebrating-50-years-microsoft-amanda-k-silver-f87ac","title":"Celebrating 50 Years of Microsoft"}
-{"date":"2024-03-11","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/building-together-development-platforms-all-amanda-k-silver-qbbpe","title":"Building together: development platforms for all"}
-{"date":"2023-05-24","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/cloud-hosted-developer-workstations-brings-joy-amanda-k-silver","title":"Cloud-hosted developer workstations brings developer joy"}
-{"date":"2021-09-14","platform":"linkedin","type":"article","url":"https://www.linkedin.com/pulse/want-create-more-inclusive-workplace-start-learning-9-silver","title":"Want to create a more inclusive workplace?"}
-{"date":"2026-06-09","platform":"x","type":"retweet","url":"https://x.com/docsmsft/status/2064397581560463754","title":"Open source at Microsoft did not happen overnight"}
-{"date":"2026-06-04","platform":"x","type":"retweet","url":"https://x.com/pierceboggan/status/2062612889073238464","title":"1 million context window and configurable reasoning levels are now available"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/paulyuki99/status/2061958508153852203","title":"Excited about ACA Sandboxes with microVMs and strong isolation"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/lukehoban/status/2061905434039246939","title":"Excited about the GitHub Copilot App"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/satyanadella/status/2061896503304806521","title":"Great to be back at Microsoft Build today"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/Azure/status/2061868916234649846","title":"Fireworks AI on Microsoft Foundry is GA"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/OmarShahine/status/2061876244862619953","title":"Introducing Microsoft Scout"}
-{"date":"2026-06-02","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2061884469301465460","title":"Work IQ APIs help agents understand how work gets done"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/pierceboggan/status/2061877165810131297","title":"Introducing MAI-Code-1-Flash"}
-{"date":"2026-06-02","platform":"x","type":"retweet","url":"https://x.com/pierceboggan/status/2061868635241828688","title":"Introducing the GitHub Copilot app"}
-{"date":"2026-05-15","platform":"x","type":"retweet","url":"https://x.com/docsmsft/status/2055340147856507090","title":"The real origin story of the long long integer"}
-{"date":"2026-05-21","platform":"x","type":"retweet","url":"https://x.com/docsmsft/status/2057539340775911617","title":"Why Script# did not stick and what led to TypeScript instead"}
-{"date":"2026-05-28","platform":"x","type":"retweet","url":"https://x.com/docsmsft/status/2060041893921132989","title":"TypeScript evolved with the community"}
-{"date":"2026-06-01","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2061602535904018716","title":"AI agents need business context to succeed"}
-{"date":"2026-05-22","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2057903080419582194","title":"The aperture for creation is opening wider than ever"}
-{"date":"2026-04-27","platform":"x","type":"retweet","url":"https://x.com/satyanadella/status/2048882283164389661","title":"Agent Mode is here in Outlook"}
-{"date":"2026-04-28","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2049340927605653681","title":"Azure API Management helps govern AI workloads at scale"}
-{"date":"2026-04-27","platform":"x","type":"retweet","url":"https://x.com/satyanadella/status/2048966332876828859","title":"Foundry enables durable stateful agents"}
-{"date":"2026-04-22","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2047032414225277314","title":"Hosted Agents in Microsoft Foundry"}
-{"date":"2026-04-16","platform":"x","type":"retweet","url":"https://x.com/Azure/status/2044838234966859793","title":"Claude Opus 4.7 is now in Microsoft Foundry"}
-{"date":"2026-06-21","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/basbrekelmans_copilot-cowork-is-now-generally-available-activity-7472667822943268865-0CO8","title":"Announcing general availability of Copilot Cowork!"}
-{"date":"2026-06-21","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/evan-boyle-107a1445_satya-nadella-%C6%A1n-ai-jobs-humans-will-do-activity-7473820759891542016-DYiK","title":"Satya Nadella on the evolution of the GitHub Copilot App"}
-{"date":"2026-06-21","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/pamela-s-fox_want-to-build-ai-experiences-that-understand-activity-7473384933005230081--uYO","title":"Microsoft IQ Deep Dive with Python live stream series"}
-{"date":"2026-06-21","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/vs-code_the-github-copilot-app-is-now-generally-available-ugcPost-7473050108515938304-ajnz","title":"The GitHub Copilot app is now generally available"}
-{"date":"2026-06-21","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/evan-boyle-107a1445_the-github-copilot-app-is-now-ga-multi-repo-activity-7473048127051046912-V7h1","title":"The GitHub Copilot App is now GA!"}
-{"date":"2026-06-18","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/digitarald_vscode-mcp-xaa-activity-7473494958361010177-gTpu","title":"VS Code MCP tooling"}
-{"date":"2026-06-16","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/charleslamanna_at-microsoft-build-we-announced-the-new-ugcPost-7472729174810677248-SWuq","title":"At Microsoft Build we announced the new agentic capabilities"}
-{"date":"2026-06-08","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/lewisxl_agent-memory-foundry-ugcPost-7469826864841244673-h_Rg","title":"Agent memory in Foundry"}
-{"date":"2026-06-11","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/nicole-herskowitz-b06132_copilot-powerpoint-ugcPost-7470966898269175808-MrTD","title":"Copilot in PowerPoint"}
-{"date":"2026-06-11","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/github_github-agentic-workflows-are-now-in-public-activity-7470885852026593280-fFX6","title":"GitHub Agentic Workflows now in public preview"}
-{"date":"2026-06-09","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/evan-boyle-107a1445_claude-fabel-5-is-live-in-the-github-copilot-ugcPost-7470172067124944896-zVLX","title":"Claude is live in the GitHub Copilot app"}
-{"date":"2026-06-09","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/danhellem_copilot-code-reviews-for-azure-repos-azure-activity-7470156024902074368-3hTF","title":"Copilot code reviews for Azure Repos"}
-{"date":"2026-06-09","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/yinaa_microsoftfoundry-anthropic-enterpriseai-activity-7470180590424637440-rd34","title":"Microsoft Foundry and Anthropic for enterprise AI"}
-{"date":"2026-06-08","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/charleslamanna_nhs-england-is-rolling-microsoft-365-copilot-ugcPost-7469878483351949313-J9iH","title":"NHS England rolling out Microsoft 365 Copilot"}
-{"date":"2026-06-03","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/jfilcik_build2026-microsoftbuild-contentunderstanding-activity-7467926313580924928-TpxP","title":"Build 2026: Content Understanding"}
-{"date":"2026-06-04","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/lewisxl_agent-agentmemory-memory-ugcPost-7468328665806786560-__M8","title":"Agent memory"}
-{"date":"2026-06-05","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/kyledaigle_its-easy-to-give-developers-a-model-or-a-activity-7468694622995910656-E8sb","title":"Its easy to give developers a model, harder to give a workflow"}
-{"date":"2026-06-04","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/rorypreddy_azure-api-management-now-supports-token-activity-7468306029890396160-65uG","title":"Azure API Management now supports token metrics"}
-{"date":"2026-06-04","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/ugcPost-7468485142622388224-ed36","title":"VS Code and GitHub Copilot teams at Microsoft Build"}
-{"date":"2026-06-03","platform":"linkedin","type":"repost","url":"https://www.linkedin.com/posts/sarahxguo_got-to-do-an-interview-with-satya-nadella-ugcPost-7468141026570842112-B7jR","title":"Interview with Satya Nadella at Microsoft Build"}
-{"date":"2026-04-16","platform":"x","type":"retweet","url":"https://x.com/github/status/2044794259581161744","title":"Claude Opus 4.7 is now in GitHub Copilot"}
-{"date":"2026-04-08","platform":"x","type":"retweet","url":"https://x.com/github/status/2042008695035355537","title":"Every dev knows security debt piles up"}
-{"date":"2026-02-17","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2023837935339270177","title":"Sonnet 4.6 is built for real back-and-forth development"}
-{"date":"2026-02-05","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2019476770802765974","title":"With frontier models like Claude Opus 4.6 now accessible"}
-{"date":"2026-02-05","platform":"x","type":"retweet","url":"https://x.com/github/status/2019475550142652670","title":"Claude Opus 4.6 is now generally available"}
-{"date":"2026-02-04","platform":"x","type":"retweet","url":"https://x.com/kdaigle/status/2019101467119087905","title":"Developer choice is what fuels GitHub"}
-{"date":"2026-02-04","platform":"x","type":"retweet","url":"https://x.com/burkeholland/status/2019085379073081651","title":"I discovered the wildest feature"}
-{"date":"2026-01-27","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/2016295480838562078","title":"Modernizing large C++ apps is hard"}
-{"date":"2025-11-17","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1990473058210185374","title":"Join us at MSIgnite to explore AgenticDevOps strategies"}
-{"date":"2025-11-17","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1990472784758378924","title":"Ship fast. Scale fearlessly. The agent factory pattern at MSIgnite"}
-{"date":"2025-11-11","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1988312889955152154","title":"Build agentic apps with the Microsoft Agent Framework + AG-UI"}
-{"date":"2025-11-11","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1988312100234817972","title":"Visual Studio 2026 is here: faster, smarter, AI-native IDE"}
-{"date":"2025-11-11","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1988310951997886853","title":".NET 10 is GA! Faster runtimes, simpler starts, smarter APIs"}
-{"date":"2025-10-31","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1984355925390737626","title":"Azure MCP Server 1.0 is now generally available"}
-{"date":"2025-10-31","platform":"x","type":"tweet","url":"https://x.com/amandaksilver/status/1984354121340895519","title":"At GitHubUniverse we built an agentic app from scratch live"}
+{"date": "2026-06-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7467686359604908032", "title": "At Microsoft Build, we’re thinking about how to preserve that human side of buil"}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7467647817755537408", "title": "Work IQ is the intelligence layer behind Microsoft 365, building a real-time sem"}
+{"date": "2026-06-01", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7467367176811741184", "title": "Excited to be at #MSBuild tomorrow with Marco Casalaina. We'll be talking about "}
+{"date": "2026-06-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7467344059456524288", "title": "The Windows + NVIDIA RTX Spark announcement is worth paying attention to... not "}
+{"date": "2026-05-30", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7466557991450869761", "title": "Awesome work, David Rousset! Great to see it all come together!"}
+{"date": "2026-05-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7463665383464411137", "title": "New role, same conviction: empowering more people to collaborate and create"}
+{"date": "2026-05-19", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7462741658967834624", "title": "Completely gutted to hear of the passing of S. Somasegar. He was the epitome of "}
+{"date": "2026-04-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7455106142302752768", "title": "As teams move from experimenting with AI to deploying to production, the challen"}
+{"date": "2026-04-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7452797844006010881", "title": "Most teams aren’t struggling to build AI agents. \" \"They’re struggling to run th"}
+{"date": "2026-04-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7450708879694274560", "title": "Excited to see Claude Opus 4.7 arrive in #MicrosoftFoundry; bringing Anthropic’s"}
+{"date": "2026-04-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7449485958233743360", "title": "Tomorrow, join Microsoft’s engineering teams to learn how we’re transforming at "}
+{"date": "2026-04-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7445506977855676417", "title": "Today’s announcement is a big deal for developers building real AI apps and agen"}
+{"date": "2026-03-30", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7444500773314654208", "title": "Over the past year, we’ve talked a lot about the Agentic SDLC — but seeing it pl"}
+{"date": "2026-03-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7440440640867532800", "title": "I spent a chunk of last weekend building with Squad, and I’m really excited abou"}
+{"date": "2026-03-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7439412718564175872", "title": "The shift from AI that answers to AI that acts is well underway — and it raises "}
+{"date": "2026-03-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7437191707139559424", "title": "Azure SRE Agent is now Generally Available! Meet YOUR new AI ops teammate built "}
+{"date": "2026-03-05", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7435481774903767040", "title": "📣 Join me and learn how to Migrate and Modernize with Agentic AI at the Microsof"}
+{"date": "2026-02-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7432557062565425152", "title": "GitHub Copilot CLI is now generally available—and it’s a serious leap forward fo"}
+{"date": "2026-02-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7429603190758670336", "title": "Sonnet 4.6 is built for real back-and-forth development: You set intent, it prod"}
+{"date": "2026-02-05", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7425240673811095552", "title": "AI is entering a new phase, moving from assisted prompts to autonomous execution"}
+{"date": "2026-01-27", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7422061386249457664", "title": "🚀 Bringing powerful AI-assisted modernization to C++ developers\" \"\" \"Today we an"}
+{"date": "2026-01-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7420237536763080704", "title": "Anyone building intelligent apps and agents today knows how much time gets burne"}
+{"date": "2026-01-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7418042762685591552", "title": "Developers want to spend their time coding, innovating, and building—not doing c"}
+{"date": "2025-12-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7407299376856928256", "title": "Thrilled to share that Microsoft has been named a Leader—and positioned furthest"}
+{"date": "2025-12-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7404955117017423872", "title": "🚀 Big news for every team building secure, scalable AI in the enterprise.\" \"Toda"}
+{"date": "2025-12-10", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7404735463233613824", "title": "Start an agentic task in VS Code locally, continue it in the cloud for asynchron"}
+{"date": "2025-12-08", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7403876064382685184", "title": "#AI is now core to coding. Next up: repository intelligence—AI that understands "}
+{"date": "2025-12-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7402085330889170944", "title": "At #MSIgnite last month, I was lucky enough to share the stage with Jenny Ferrie"}
+{"date": "2025-11-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7398809687879503873", "title": "#Opus 4.5 is now available in #MicrosoftFoundry, and it’s a strong step forward "}
+{"date": "2025-11-19", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7397040115568668672", "title": "🎉Excited to share news from #MSIgnite 2025! The AI Toolkit for #VSCode just got "}
+{"date": "2025-11-18", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7396755180551102465", "title": "Excited to share this story with you, Jenny!"}
+{"date": "2025-11-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7396596115271262211", "title": "Build smarter, connected, agentic apps with Microsoft Foundry. \" \"Developers are"}
+{"date": "2025-11-18", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7396583152787316736", "title": "🚀 Microsoft Foundry is redefining enterprise intelligence at #MSIgnite! Discover"}
+{"date": "2025-11-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7396238663086448640", "title": "#AgenticDevOps is shaping the future of software engineering, driving productivi"}
+{"date": "2025-11-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7396238365936930817", "title": "Developers want to build once and scale everywhere. At #MSIgnite this week, we’l"}
+{"date": "2025-11-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7394098171095863296", "title": "David Fowler is right on this point.... \" \"\" \"The difference between teams that "}
+{"date": "2025-11-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7394097372383019008", "title": "Visual Studio 2026 is here!"}
+{"date": "2025-11-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7394077286351892480", "title": "Today marks the celebration of .NET 10 GA, focusing on shipping faster with less"}
+{"date": "2025-10-31", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7390126542502322176", "title": "The craft of software development is evolving – from typing code to articulating"}
+{"date": "2025-10-31", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7390120852731830272", "title": "If you’re building agents, Azure MCP Server 1.0 is your fast path from prototype"}
+{"date": "2025-10-30", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7389777743690829824", "title": "Just finished reading Jessica’s recap of GitHub Universe 2025, and it really res"}
+{"date": "2025-10-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7388989119743516672", "title": "#GitHub Universe is underway and wow! - there’s a lot of goodies in store for th"}
+{"date": "2025-10-15", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7384313245576302592", "title": "Developers are the epicenter of enterprise AI transformation.\" \"\" \"We’re enterin"}
+{"date": "2025-10-15", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7384311851075084290", "title": "Developers working in secure or disconnected environments with Azure DevOps—this"}
+{"date": "2025-10-14", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7384010509051727872", "title": "The future always starts with developers! A bit of a change for me!"}
+{"date": "2025-10-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7383474139745103872", "title": "Driving developer productivity forward—again!\" \"\" \"If you haven’t already, check"}
+{"date": "2025-10-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7383470977302593538", "title": "Lisbon, you were electric ⚡️\" \"\" \"Huge thanks to everyone who joined the Azure D"}
+{"date": "2025-10-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7383241031833722880", "title": "Getting pumped for kicking off the Azure Dev Summit in Lisbon tomorrow. Putting "}
+{"date": "2025-10-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7379179891445002240", "title": "As enterprises increasingly adopt agentic AI (8 out of 10 now do), the need for "}
+{"date": "2025-09-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7379015831168585728", "title": "Legacy Java and .NET systems shouldn’t slow down your innovation—they should be "}
+{"date": "2025-09-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7377454840660099072", "title": "🚀 GPT-5 Codex is now in public preview for GitHub Copilot! \" \"\" \"This next-gener"}
+{"date": "2025-09-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7377454117771943936", "title": "🚀 GitHub Copilot Coding Agent is now generally available!\" \"This marks a major m"}
+{"date": "2025-09-23", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7376450457000534016", "title": "Goodbye tech debt! Hello innovation! \" \"\" \"Hope you all didn't miss the Migrate "}
+{"date": "2025-09-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7376240158343364608", "title": "Every organization has an innovation agenda. But for many teams, it’s technical "}
+{"date": "2025-09-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7374207353510043648", "title": "The #GitHub MCP Registry is now live—and it’s a big deal for discovering and dep"}
+{"date": "2025-09-16", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7373757666852024320", "title": "🚀 Today marks a big milestone for developer productivity and platform simplicity"}
+{"date": "2025-09-15", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7373554940423819265", "title": "Hate tech debt? Me too. Join me at the summit for a closer look into how AI-assi"}
+{"date": "2025-09-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7373549347843727361", "title": "🚀 Now in public preview: #GitHub Copilot in #VSCode can automatically select the"}
+{"date": "2025-09-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7372324651332587520", "title": "We had a hunch that spec driven development would be the next wave - it's awesom"}
+{"date": "2025-09-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7372323383872507904", "title": "🚀 VS Code August Release: Smarter AI, seamless customization \" \"The latest VS Co"}
+{"date": "2025-09-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7371333067912720384", "title": "🚀 Visual Studio 2026 Insiders is here — and it’s built for developers who want t"}
+{"date": "2025-09-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7369204696659468289", "title": "Developer experience is the new productivity moat. #Azure AI Foundry meets devel"}
+{"date": "2025-09-03", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7369203875867783168", "title": "Excited to share a new open-source toolkit from #GitHub that brings spec-driven "}
+{"date": "2025-08-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7367282986502811648", "title": "AI is reshaping every step of the software development lifecycle.\" \"\" \"For decad"}
+{"date": "2025-08-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7367030323286646784", "title": "Had a great conversation with Darryl K. Taft at The New Stack about the evolving"}
+{"date": "2025-08-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7366338773309157378", "title": "Over the past year, my team has been rethinking how platform engineering works a"}
+{"date": "2025-08-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7366232666901266436", "title": "Big news for developers working with Azure! 🎉\" \"\" \"The GitHub Copilot for Azure "}
+{"date": "2025-08-19", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7363673076875591680", "title": "Software development is evolving: #AI #agents handle the busy work so you can fo"}
+{"date": "2025-08-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7359304216781213697", "title": "The latest #VSCode release gives developers more control and flexibility with po"}
+{"date": "2025-08-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7359302401369010177", "title": "🚀 A major milestone for millions of developers: GPT-5 is now available in previe"}
+{"date": "2025-07-30", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7356403207557824512", "title": "AI has become essential for every app. And now, with agentic capabilities - tool"}
+{"date": "2025-07-10", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7349197718809976833", "title": "🚀VS Code 1.102 is here!\" \"\" \" 🧠Smarter. \" \" 🎯More personalized. \" \" 🌐More open.\""}
+{"date": "2025-07-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7345940838696292352", "title": "I love this story, not because the team was working late - but because... \" \"\" \""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7345497439644065792", "title": "Today we’re delivering on the announcement we made last month: To make VS Code t"}
+{"date": "2025-06-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7344970850338488320", "title": "Hiring for Principal data scientists in our team!"}
+{"date": "2025-06-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7344795766806167552", "title": "Great to see Satya buzz through the customer showcase at the AI Tour in the Neth"}
+{"date": "2025-06-27", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7344475119064399872", "title": "New role on our team working on one of the most beloved products in the industry"}
+{"date": "2025-06-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7339180040670126080", "title": "Love this!"}
+{"date": "2025-06-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7338991910436356097", "title": "🚀 I’m excited to share that Visual Studio Code now supports the full Model Conte"}
+{"date": "2025-06-10", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7338347429571829760", "title": "This Thursday, join Olivia Guzzardo and the crew to see how MCP servers + extens"}
+{"date": "2025-06-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7336907071843405824", "title": "Had a blast joining Adam Stacoviak and Jerod Santo on the Changelog podcast at M"}
+{"date": "2025-05-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7334005012311748608", "title": "✨ We’re entering a new era of software development—one where AI doesn’t just ass"}
+{"date": "2025-05-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7331401308718948356", "title": "Build smarter, faster AI apps with less friction. GitHub Copilot’s agentic capab"}
+{"date": "2025-05-19", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7330280996191252480", "title": "Today at Build we’ll show you GitHub Copilot coding agent in action! Assign a Gi"}
+{"date": "2025-05-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7330263879802859522", "title": "Imagine spinning up a squad of teammates— to fix bugs, write docs, and ship smal"}
+{"date": "2025-05-15", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7328895006767767552", "title": "🎉 50 MILLION developers! Every line of code, every late-night debug, every “Aha!"}
+{"date": "2025-05-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7328129266108219393", "title": "Developers, start your engines! We just GA’ed Visual Studio 2022 v17.14. AI-assi"}
+{"date": "2025-05-05", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7325294196225900544", "title": "One of the most quickly adopted new protocols in the era of agentic AI is MCP (M"}
+{"date": "2025-04-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7322023736998580227", "title": "Excited to collaborate with Anthropic to bring authorization to MCP!"}
+{"date": "2025-04-24", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7321197874627698689", "title": "MCP Server for Azure. This stuff is 🔥🔥🔥🔥and enables so much. Really excited abou"}
+{"date": "2025-04-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7320519069726605315", "title": "When we kicked off the Secure Future Initiative and Joy Chik asked me to represe"}
+{"date": "2025-04-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7320517886899277824", "title": "In November of 2021, in addition to my responsibilities as Head of Product for M"}
+{"date": "2025-04-20", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7319814395725783041", "title": "New capabilities making it easier to use Azure Boards and GitHub repos together!"}
+{"date": "2025-04-16", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7318341059070107650", "title": "If you haven’t tried it, Agent Mode brings GitHub Copilot to a whole new level. "}
+{"date": "2025-04-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7314746467489828864", "title": "Love this framing. A provocative post by the ever-amazing Haiyan Zhang."}
+{"date": "2025-04-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7313998038165831680", "title": "Beautiful post by S. Somasegar who has been a pivotal leader and mentor for me t"}
+{"date": "2025-04-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7313992249632034816", "title": "Vibe coding from BASIC to Quantum. Microsoft in a nutshell. \" \"\" \"#Microsoft50 🎉"}
+{"date": "2025-04-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7313955554932989954", "title": "Celebrating 50 years of Microsoft"}
+{"date": "2025-03-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7305244139766325248", "title": "Big news! We're porting TypeScript to native code resulting in a 10x speed boost"}
+{"date": "2025-02-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7291604036510760960", "title": "Nancy - You bring the energy every day with optimism, joy, and a can-do attitude"}
+{"date": "2025-01-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7284670219417989120", "title": "Excited to welcome Jay Parikh to the team! With his previous experience leading "}
+{"date": "2024-12-18", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7275215189111721984", "title": "Today we announced GitHub Copilot FREE coming to all editors. With access to GPT"}
+{"date": "2024-11-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7264333184962564098", "title": "Software is a team sport: Since 2018, #Microsoft and #GitHub have been building "}
+{"date": "2024-11-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7260375542015643649", "title": "Leading both the VS Code and accessibility tooling teams, I love to see when our"}
+{"date": "2024-10-29", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7257070174388772864", "title": "From the preview of GitHub Copilot for Azure to new AI App Templates, there’s lo"}
+{"date": "2024-09-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7242648880905928704", "title": "Happy 10th Birthday, Azure API Management! \" \"\" \"Here's to a decade of innovatio"}
+{"date": "2024-09-16", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7241587854747828224", "title": "The ability to build intelligent applications is fast becoming table stakes for "}
+{"date": "2024-09-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7241558898946494465", "title": "Python in Excel GA’ed today! This will be HUGE! Leverage predictive analytics, v"}
+{"date": "2024-08-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7232506255938871296", "title": "Very proud of the innovation we've put into Visual Studio, Visual Studio Code, a"}
+{"date": "2024-05-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7198717559490191360", "title": "The path to developer happiness: More coding and less ops, innovation at the spe"}
+{"date": "2024-03-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7173090202142380032", "title": "Currently in Paris for the #MicrosoftAITour to talk about generative AI for deve"}
+{"date": "2024-03-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7173086021218222081", "title": "Last week at Microsoft’s Ability Summit I had the opportunity to talk about the "}
+{"date": "2024-03-05", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7170958159019192320", "title": "Microsoft’s #AbilitySummit is March 7!\" \"\" \"The future always starts with develo"}
+{"date": "2023-12-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7138608970423795714", "title": "Proud to share Microsoft has been recognized as a Leader in 2023 Gartner® Magic "}
+{"date": "2023-10-31", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7125203149547540480", "title": "With this new capability jointly delivered by Azure and Split in Azure App Confi"}
+{"date": "2023-10-31", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7125192974933659649", "title": "Last day! \" \"\" \"October is National Disabled Employee Awareness Month (#NDEAM) -"}
+{"date": "2023-09-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7111100751497625600", "title": "GitHub Advanced Security now available for Azure DevOps at the click of a button"}
+{"date": "2023-09-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7111085225157300224", "title": "TypeScript becoming a success was a long shot, but when you work with incredible"}
+{"date": "2023-05-24", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7067263429354389504", "title": ""}
+{"date": "2023-04-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7056689401304662016", "title": "It’s projected that more than 500 million applications and microservices will be"}
+{"date": "2023-04-19", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7054484047300866048", "title": "Excited to see everyone in Zurich this coming Monday!"}
+{"date": "2023-01-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7024244580313178112", "title": "Thanks for having me on, David Starr and Paul Maher!"}
+{"date": "2023-01-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7021217496422617088", "title": ""}
+{"date": "2022-04-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6917144901683953664", "title": "Microsoft's Innovate for Impact event is happening today! I'll be talking about "}
+{"date": "2021-09-29", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6849173498577997824", "title": "Proud of the work we're doing at #MSFT to support Growth & Resilience in Tech an"}
+{"date": "2021-09-14", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6843566477153591296", "title": "Working in technology requires more than knowing the right programming languages"}
+{"date": "2021-08-31", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6838562803037687808", "title": "Developers! Developers! Developers! #Developers"}
+{"date": "2021-05-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6802613406387052545", "title": "I've been thinking a lot about what developers have accomplished this year and h"}
+{"date": "2021-04-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6785220942319751168", "title": "Welcome Java developers! \" \"\" \"Today we are excited to announce the preview of t"}
+{"date": "2021-04-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6785219988576980993", "title": "Welcome Java developers! #java"}
+{"date": "2021-02-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6762077859340259328", "title": "\"The strategy for VS Code is really to support our any, any, any strategy. You c"}
+{"date": "2021-01-14", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6755529683628105728", "title": "In 2021, we can come together to grow and support developer talent amid unpreced"}
+{"date": "2021-01-08", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6753477979013296128", "title": "Yet another exciting role working on tools, frameworks, and platforms for develo"}
+{"date": "2020-12-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6745559005877403648", "title": "Yet another exciting role working on the developer experience for Azure. This ti"}
+{"date": "2020-12-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6741803699141783553", "title": "New opportunity: Head of Design for Microsoft's Developer Division\" \"\" \"Microsof"}
+{"date": "2020-12-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6740791418199130112", "title": ""}
+{"date": "2020-09-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6716404490343477248", "title": "I had a great conversation with Den Delimarsky and Courtny Cotten about my passi"}
+{"date": "2020-09-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6710675384071004160", "title": "Interested in how @Azure can improve Dev/Test? Join us on September 17th to lear"}
+{"date": "2020-07-31", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6695021573109354496", "title": "We're hiring a Senior technical product / program manager to help with the Azure"}
+{"date": "2020-05-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6668739209936941056", "title": "Working hard to empower developer and their teams during this period when their "}
+{"date": "2020-04-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6658714632389296130", "title": "Ipywidgets in VS Code!"}
+{"date": "2020-04-16", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6656671336649244672", "title": "Not using GitHub yet? Free private repos with unlimited collaborators!!"}
+{"date": "2020-04-03", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6651950525380210688", "title": "Improved Git experience in Visual Studio!"}
+{"date": "2020-03-29", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6650219929008254976", "title": "How are developers at Microsoft staying productive as we transition to remote wo"}
+{"date": "2020-03-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6649044141416202241", "title": "Awesome!"}
+{"date": "2020-03-21", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6647202937766584320", "title": "Come join our team!"}
+{"date": "2020-03-20", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6646980485803315200", "title": "Kevin Scott is such a decent human being. Great reminder to calm down and figure"}
+{"date": "2020-03-17", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6645671153358766081", "title": "Creative Director for digital products? Have a passion for developers? Come join"}
+{"date": "2020-03-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6643594996039716864", "title": ""}
+{"date": "2020-03-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6641916348626808832", "title": "Recent updates to Visual Studio Online - your dev box in the cloud."}
+{"date": "2020-03-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6641194082351792128", "title": "Relieved that Microsoft leadership made this call. Creating software and service"}
+{"date": "2020-03-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6640976659493335040", "title": "TypeScript breaks through to the top ten! C# at number five."}
+{"date": "2020-03-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6640466880983285760", "title": "Super lucky to have had role models like John Cunningham throughout my career. I"}
+{"date": "2020-03-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6640117230308855808", "title": "Passion for developer experience but have a user researcher background? Our team"}
+{"date": "2020-02-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6637140803192004608", "title": "This is awesome."}
+{"date": "2020-02-18", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6635703136218689536", "title": "Come join our team!!"}
+{"date": "2020-02-18", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6635593065102999552", "title": "Come join our team!!!"}
+{"date": "2020-02-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6633946710211207168", "title": "GitHub for every startup! #github #startup"}
+{"date": "2020-02-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6633930696526303232", "title": "Are you interested in researchOps to support how developers can build digital pr"}
+{"date": "2020-02-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6633140935020683264", "title": "Come join our team!!"}
+{"date": "2020-02-11", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6633135106242555905", "title": "Come join our team!"}
+{"date": "2020-02-08", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6631965506989633536", "title": "Come join our team!!"}
+{"date": "2020-01-27", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6627735122278002688", "title": ""}
+{"date": "2020-01-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6627268334641643520", "title": "The amazing Sharon Steed (she/her) came and spoke with our team this past Friday"}
+{"date": "2019-12-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6609339059330519041", "title": "Great example of inclusive design leading to better utility for all."}
+{"date": "2019-12-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6608180260695605248", "title": "GitHub integration right in Visual Studio as of the most recent release."}
+{"date": "2019-12-04", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6608145054773182464", "title": "Saqib Shaikh is amazing."}
+{"date": "2019-11-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6605149782908428288", "title": "Work with my team!"}
+{"date": "2019-11-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6605125427604398080", "title": "Uses Microsoft MakeCode, a powerful and fun environment for kids to code! #MakeC"}
+{"date": "2019-11-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6596400360766746624", "title": "This is incredible... I think I finally found who I want to be when I grow up."}
+{"date": "2019-10-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6593494863545806848", "title": "Want to work for developers as a PM on C++ experiences in Visual Studio and Code"}
+{"date": "2019-10-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6593494474658316288", "title": "Want to work on Python in VSCode?"}
+{"date": "2019-10-24", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6593286240970375168", "title": "Join our team! Great role for a technical PM or a dev looking to transition into"}
+{"date": "2019-10-16", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6590400229886033920", "title": "“Visual Studio and Visual Studio Code are now the most popular code-editing tool"}
+{"date": "2019-09-26", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6583014824052174850", "title": "Hiring a PM on the VS Code team!"}
+{"date": "2019-09-03", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6574732275051835393", "title": "Are you an attorney in tech who loves working on things like open source?"}
+{"date": "2019-08-27", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6572304809939075072", "title": ""}
+{"date": "2019-07-13", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6556010127550480384", "title": ""}
+{"date": "2019-06-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6550405791122288640", "title": ""}
+{"date": "2019-04-29", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6528690873138577409", "title": "Between two ferns on the present and future of developer environments with Rober"}
+{"date": "2019-04-25", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6527223714956734464", "title": "We just opened a new role on my team working on Visual Studio Live Share! #visua"}
+{"date": "2019-04-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6523391238346018817", "title": ""}
+{"date": "2019-04-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6518949665860386816", "title": "Congrats to the team!"}
+{"date": "2019-04-01", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6518502286011043840", "title": "Huge for C++ devs."}
+{"date": "2019-03-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6511305936894857217", "title": "Want to empower millions of devs? We're hiring! Positions below!\" \"Developer Too"}
+{"date": "2019-02-14", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6502058642819338240", "title": "Want to empower millions of devs? We're hiring! Positions below!\" \"\" \"Dev Team C"}
+{"date": "2018-12-14", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6479432549738385409", "title": ""}
+{"date": "2018-12-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6479426187637723136", "title": "My boss, John Montgomery, wrote up a great explanation of how we hire PMs in Mic"}
+{"date": "2018-12-12", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6478734379387625472", "title": "Are you a C++ dev looking to move into PM? Are you a PM for a company that has C"}
+{"date": "2018-12-10", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6478133191688486912", "title": "Yet another reason I'm proud to be working at Microsoft. Did I mention I'm hirin"}
+{"date": "2018-11-15", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6469021730735292416", "title": "Highly recommended."}
+{"date": "2018-10-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6455559412764467200", "title": "Happy we just filled two open positions on my team today! With that, we've just "}
+{"date": "2018-10-05", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6454142754434936832", "title": "Just posted another job description on my team. Looking for someone who has the "}
+{"date": "2018-09-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6448231787243147264", "title": "Nice recap of my keynote at #VSLive25 yesterday... \" \"https://lnkd.in/gKkVViv #v"}
+{"date": "2018-09-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6448005820943863809", "title": "Thanks to #VSLive for having me as your keynote speaker today! I love 11am keyno"}
+{"date": "2018-09-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6443687902969937920", "title": ""}
+{"date": "2018-08-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6438906655693512704", "title": "https://lnkd.in/gf2MYnh"}
+{"date": "2018-06-28", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6418246892236476416", "title": ""}
+{"date": "2018-06-02", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6408621957943820288", "title": ""}
+{"date": "2018-05-23", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6405176320522883072", "title": ""}
+{"date": "2018-05-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6399477661575577601", "title": "Introducing Visual Studio IntelliCode! Making every developer and dev team more "}
+{"date": "2018-05-07", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A6399476199235686400", "title": "Announcing Visual Studio IntelliCode! Making every developer and team more produ"}
+{"date": "2018-03-22", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6382716779252322304", "title": "Build server? Don't install full Visual Studio."}
+{"date": "2018-03-08", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6377679709785903104", "title": ""}
+{"date": "2018-03-06", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6376936402223005696", "title": ""}
+{"date": "2018-02-21", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6372144777764442112", "title": ""}
+{"date": "2017-11-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6337131575070851072", "title": "I did a fun demo of something I've been working on yesterday... \" \"\" \"https://ln"}
+{"date": "2015-10-08", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6058123485929037824", "title": "We're hiring: \" \"http://aka.ms/ChakraPM"}
+{"date": "2015-10-08", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6058123396368064512", "title": "We're hiring! \" \"http://aka.ms/TypeScriptPM\" \"http://aka.ms/ChakraPM"}
+{"date": "2012-11-21", "platform": "linkedin", "type": "post", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A1330936792", "title": "Comedic movie streaming on Netflix that my 60-something parents would enjoy? Int"}
+{"date": "2011-12-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A762656980", "title": "Searching for an awesome front-end web developer with strong leadership qualitie"}
+{"date": "2011-01-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A234552747", "title": "Looking for a couple great Program Managers / Software Designers who want to wor"}
+{"date": "2026-06-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7474539478523531264", "title": ""}
+{"date": "2026-06-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7474537000105168896", "title": ""}
+{"date": "2026-06-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7474535024671862784", "title": ""}
+{"date": "2026-06-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7474316883693813760", "title": ""}
+{"date": "2026-06-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7473894326150905856", "title": ""}
+{"date": "2026-06-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7473894172136214528", "title": ""}
+{"date": "2026-06-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7473531643442536448", "title": ""}
+{"date": "2026-06-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7471946971210067968", "title": ""}
+{"date": "2026-06-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7471078816992542720", "title": ""}
+{"date": "2026-06-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7471078045865385984", "title": ""}
+{"date": "2026-06-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7470663004812922880", "title": ""}
+{"date": "2026-06-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7470662847501492224", "title": ""}
+{"date": "2026-06-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7470330188866859010", "title": ""}
+{"date": "2026-06-08", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7469966901620891649", "title": ""}
+{"date": "2026-06-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7469151572783005699", "title": ""}
+{"date": "2026-06-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468778276098871296", "title": ""}
+{"date": "2026-06-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468778138442031104", "title": ""}
+{"date": "2026-06-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468778070460678144", "title": ""}
+{"date": "2026-06-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468674364230520832", "title": ""}
+{"date": "2026-06-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468450214748782592", "title": ""}
+{"date": "2026-06-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468449520884850689", "title": ""}
+{"date": "2026-06-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468448871539539968", "title": ""}
+{"date": "2026-06-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468160196419198977", "title": ""}
+{"date": "2026-06-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7468159903992336384", "title": ""}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467756154966671360", "title": ""}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467752825247264769", "title": ""}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467752723652788224", "title": ""}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467752695689322496", "title": ""}
+{"date": "2026-06-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467644002088173568", "title": ""}
+{"date": "2026-06-01", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7467348859837440000", "title": ""}
+{"date": "2026-05-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7465954801596641280", "title": ""}
+{"date": "2026-05-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7465940401368010752", "title": ""}
+{"date": "2026-05-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7465888238164029440", "title": ""}
+{"date": "2026-05-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7464476159452405761", "title": ""}
+{"date": "2026-05-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7462741797509771264", "title": ""}
+{"date": "2026-05-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7462700600267554816", "title": ""}
+{"date": "2026-05-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7461856905359937536", "title": ""}
+{"date": "2026-05-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7461042769386717184", "title": ""}
+{"date": "2026-05-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7459395146443575296", "title": ""}
+{"date": "2026-05-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7457627770349862913", "title": ""}
+{"date": "2026-05-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7456905011638194176", "title": ""}
+{"date": "2026-04-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7455867090781016064", "title": ""}
+{"date": "2026-04-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7455866794289836033", "title": ""}
+{"date": "2026-04-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7455617174825750528", "title": ""}
+{"date": "2026-04-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7454331534473367559", "title": ""}
+{"date": "2026-04-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7454274036978802688", "title": ""}
+{"date": "2026-04-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7453653249880039424", "title": ""}
+{"date": "2026-04-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7453135908666544128", "title": ""}
+{"date": "2026-04-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452882649670635521", "title": ""}
+{"date": "2026-04-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452882155355119616", "title": ""}
+{"date": "2026-04-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452882011066867712", "title": ""}
+{"date": "2026-04-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452091969293680641", "title": ""}
+{"date": "2026-04-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452053801336803329", "title": ""}
+{"date": "2026-04-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7452034524160479233", "title": ""}
+{"date": "2026-04-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7451024476256907264", "title": ""}
+{"date": "2026-04-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7451024447588745217", "title": ""}
+{"date": "2026-04-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7450288463742132225", "title": ""}
+{"date": "2026-04-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7450288420238573568", "title": ""}
+{"date": "2026-04-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7448434277681115136", "title": ""}
+{"date": "2026-04-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7448217667251007488", "title": ""}
+{"date": "2026-04-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7445606850873626624", "title": ""}
+{"date": "2026-03-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7444388688207409153", "title": ""}
+{"date": "2026-03-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7444182894539079680", "title": ""}
+{"date": "2026-03-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7442446112638095360", "title": ""}
+{"date": "2026-03-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7442087413008547841", "title": ""}
+{"date": "2026-03-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7442087230619267072", "title": ""}
+{"date": "2026-03-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7441965280605634560", "title": ""}
+{"date": "2026-03-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7441948788719591424", "title": ""}
+{"date": "2026-03-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7439499216172777472", "title": ""}
+{"date": "2026-03-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7439498256906145792", "title": ""}
+{"date": "2026-03-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7439497801559920640", "title": ""}
+{"date": "2026-03-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7439411471618584578", "title": ""}
+{"date": "2026-03-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7439085349760552960", "title": ""}
+{"date": "2026-03-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7438329064534294528", "title": ""}
+{"date": "2026-03-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7438063161884180480", "title": ""}
+{"date": "2026-02-25", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7432612472076902400", "title": ""}
+{"date": "2026-02-25", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7432611308988039168", "title": ""}
+{"date": "2026-02-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7432190755403735040", "title": ""}
+{"date": "2026-02-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7431155994816077824", "title": ""}
+{"date": "2026-02-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7429766742131818496", "title": ""}
+{"date": "2026-02-17", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7429766532853018624", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428629963232387072", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428628839125118976", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428628544341135360", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428628398526291969", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428628364338397185", "title": ""}
+{"date": "2026-02-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7428626567146156032", "title": ""}
+{"date": "2026-02-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7427932145953808384", "title": ""}
+{"date": "2026-02-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7427931755535605760", "title": ""}
+{"date": "2026-02-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7425753340950745088", "title": ""}
+{"date": "2026-02-01", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7423808334476271616", "title": ""}
+{"date": "2026-01-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7422492740589961216", "title": ""}
+{"date": "2026-01-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7420697931898384384", "title": ""}
+{"date": "2026-01-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7420697800838938624", "title": ""}
+{"date": "2026-01-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7420697677752987648", "title": ""}
+{"date": "2026-01-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7420697402820419585", "title": ""}
+{"date": "2026-01-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7420118938421907456", "title": ""}
+{"date": "2026-01-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7418753586458673152", "title": ""}
+{"date": "2026-01-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7417760635763220480", "title": ""}
+{"date": "2026-01-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7417760598035283968", "title": ""}
+{"date": "2026-01-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7415805178412486656", "title": ""}
+{"date": "2026-01-08", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7415257431066374145", "title": ""}
+{"date": "2026-01-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7413598573159698433", "title": ""}
+{"date": "2025-12-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7408858539739283456", "title": ""}
+{"date": "2025-12-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7408858455912148995", "title": ""}
+{"date": "2025-12-22", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7408848790918508544", "title": ""}
+{"date": "2025-12-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7408236409469231104", "title": ""}
+{"date": "2025-12-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7408168387702353920", "title": ""}
+{"date": "2025-12-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7405637482454781952", "title": ""}
+{"date": "2025-12-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7405073263149641729", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404708028891115520", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404707438370881536", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404693347636092928", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404611035183120385", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404610306422800385", "title": ""}
+{"date": "2025-12-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7404610221559595008", "title": ""}
+{"date": "2025-12-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7403126831803244544", "title": ""}
+{"date": "2025-12-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7403126170202148864", "title": ""}
+{"date": "2025-12-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402819780845748225", "title": ""}
+{"date": "2025-12-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402544355426693121", "title": ""}
+{"date": "2025-12-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402544122735071232", "title": ""}
+{"date": "2025-12-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402453442918871040", "title": ""}
+{"date": "2025-12-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402417957861179392", "title": ""}
+{"date": "2025-12-04", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402414554192027649", "title": ""}
+{"date": "2025-12-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7402235251588329472", "title": ""}
+{"date": "2025-12-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7401789618792280064", "title": ""}
+{"date": "2025-11-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7400760209205493761", "title": ""}
+{"date": "2025-11-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7400759877825912832", "title": ""}
+{"date": "2025-11-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7400759779817607168", "title": ""}
+{"date": "2025-11-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7400302878411907072", "title": ""}
+{"date": "2025-11-25", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7399318855929487360", "title": ""}
+{"date": "2025-11-25", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7399214604398206976", "title": ""}
+{"date": "2025-11-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7397413493676654592", "title": ""}
+{"date": "2025-11-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7396929482156175360", "title": ""}
+{"date": "2025-11-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7396620995261886464", "title": ""}
+{"date": "2025-11-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7393327597541187584", "title": ""}
+{"date": "2025-10-31", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7390226954756517888", "title": ""}
+{"date": "2025-10-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7389487581425696768", "title": ""}
+{"date": "2025-10-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7386230163002449920", "title": ""}
+{"date": "2025-10-20", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7386230117938847744", "title": ""}
+{"date": "2025-10-19", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7385704617147506688", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740954961973248", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740776460652544", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740699172356097", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740585863241728", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740452505354240", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740231360598016", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384740109243334657", "title": ""}
+{"date": "2025-10-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384652272003244032", "title": ""}
+{"date": "2025-10-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384297494068936704", "title": ""}
+{"date": "2025-10-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7384297415828234240", "title": ""}
+{"date": "2025-10-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7383988671726850048", "title": ""}
+{"date": "2025-10-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7383770846248681472", "title": ""}
+{"date": "2025-10-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7383770177638866944", "title": ""}
+{"date": "2025-10-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7383769993781370880", "title": ""}
+{"date": "2025-10-14", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7383769565387771904", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844960305340418", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844923416518656", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844898233733120", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844856156696576", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844714359861248", "title": ""}
+{"date": "2025-10-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382844649830313984", "title": ""}
+{"date": "2025-10-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7382267028629327872", "title": ""}
+{"date": "2025-09-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7378068152611430400", "title": ""}
+{"date": "2025-09-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376808858700152833", "title": ""}
+{"date": "2025-09-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376769853795282945", "title": ""}
+{"date": "2025-09-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376769758857371649", "title": ""}
+{"date": "2025-09-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376450568954765312", "title": ""}
+{"date": "2025-09-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376450508477169665", "title": ""}
+{"date": "2025-09-23", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7376297189536542720", "title": ""}
+{"date": "2025-09-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7373758943195496448", "title": ""}
+{"date": "2025-09-16", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7373757573839192064", "title": ""}
+{"date": "2025-09-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7373548212642779136", "title": ""}
+{"date": "2025-09-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7373465848960909312", "title": ""}
+{"date": "2025-09-15", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7373454796638310400", "title": ""}
+{"date": "2025-09-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7372802886088450048", "title": ""}
+{"date": "2025-09-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7372802486593695744", "title": ""}
+{"date": "2025-09-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7372802446894510080", "title": ""}
+{"date": "2025-09-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7372802350157242368", "title": ""}
+{"date": "2025-09-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7372802020862455808", "title": ""}
+{"date": "2025-09-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7371733071622205440", "title": ""}
+{"date": "2025-09-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7371733029586767873", "title": ""}
+{"date": "2025-09-08", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7370980926320726017", "title": ""}
+{"date": "2025-09-07", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7370651197634043904", "title": ""}
+{"date": "2025-09-07", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7370651124057559040", "title": ""}
+{"date": "2025-09-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7370264386810261504", "title": ""}
+{"date": "2025-09-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7370263140816584704", "title": ""}
+{"date": "2025-09-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7369934758560194560", "title": ""}
+{"date": "2025-09-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7369934708744310784", "title": ""}
+{"date": "2025-09-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7369886244740321280", "title": ""}
+{"date": "2025-09-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7369203789850923009", "title": ""}
+{"date": "2025-08-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7367282472851550208", "title": ""}
+{"date": "2025-08-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7367030601045999618", "title": ""}
+{"date": "2025-08-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7367030473199370241", "title": ""}
+{"date": "2025-08-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7366339645002956800", "title": ""}
+{"date": "2025-08-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7366339254056046592", "title": ""}
+{"date": "2025-08-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7366339212331184128", "title": ""}
+{"date": "2025-08-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7363365472366456832", "title": ""}
+{"date": "2025-08-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7363365206674075648", "title": ""}
+{"date": "2025-08-18", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7363364966264922112", "title": ""}
+{"date": "2025-08-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7361556563645378562", "title": ""}
+{"date": "2025-08-13", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7361543183408775169", "title": ""}
+{"date": "2025-08-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7361203828429385728", "title": ""}
+{"date": "2025-08-12", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7361203662376882178", "title": ""}
+{"date": "2025-08-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7359959100069171200", "title": ""}
+{"date": "2025-08-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7357785307489976320", "title": ""}
+{"date": "2025-08-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7357392381723226113", "title": ""}
+{"date": "2025-07-21", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7353044219512442884", "title": ""}
+{"date": "2025-07-11", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7349424566261227521", "title": ""}
+{"date": "2025-07-09", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7348884550640422913", "title": ""}
+{"date": "2025-07-07", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7348174121236688896", "title": ""}
+{"date": "2025-07-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7346532067049947137", "title": ""}
+{"date": "2025-07-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7346532043406700545", "title": ""}
+{"date": "2025-07-03", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7346531980076793857", "title": ""}
+{"date": "2025-07-02", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7346258844538347521", "title": ""}
+{"date": "2025-07-01", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345941476394135552", "title": ""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345622234541039616", "title": ""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345620974395891713", "title": ""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345620205521313794", "title": ""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345620174865145856", "title": ""}
+{"date": "2025-06-30", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7345620145383403521", "title": ""}
+{"date": "2025-06-28", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7344974698595667968", "title": ""}
+{"date": "2025-06-27", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7344382011924500482", "title": ""}
+{"date": "2025-06-27", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7344381981838725120", "title": ""}
+{"date": "2025-06-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7344176305929601025", "title": ""}
+{"date": "2025-06-10", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7338347480155074560", "title": ""}
+{"date": "2025-06-07", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7337130870580891648", "title": ""}
+{"date": "2025-06-01", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7334965900850143232", "title": ""}
+{"date": "2025-05-31", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7334630525745143809", "title": ""}
+{"date": "2025-05-29", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7334013822812205056", "title": ""}
+{"date": "2025-05-26", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7332798710772338689", "title": ""}
+{"date": "2025-05-24", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7332167600036073472", "title": ""}
+{"date": "2025-05-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7325302014664413185", "title": ""}
+{"date": "2025-05-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7325301991813894144", "title": ""}
+{"date": "2025-05-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7325301973363085312", "title": ""}
+{"date": "2025-05-05", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7325301144145006592", "title": ""}
+{"date": "2024-09-06", "platform": "linkedin", "type": "repost", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7237962555678154753", "title": ""}
+{"date": "2024-03-11", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/building-together-development-platforms-all-amanda-k-silver-qbbpe", "title": "Building together: development platforms for all"}
+{"date": "2025-04-04", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/celebrating-50-years-microsoft-amanda-k-silver-f87ac", "title": "🎉 Celebrating 50 Years of Microsoft 🎉"}
+{"date": "2023-05-24", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/cloud-hosted-developer-workstations-brings-joy-amanda-k-silver", "title": "Cloud-hosted developer workstations brings developer joy"}
+{"date": "2025-10-14", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/future-always-starts-developers-amanda-k-silver-hpyic", "title": "The future always starts with developers!"}
+{"date": "2026-05-22", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/same-mission-new-chapter-amanda-k-silver-nsgfc", "title": "Same mission, new chapter"}
+{"date": "2025-11-11", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/visual-studio-2026-now-generally-available-amanda-k-silver-dlfgc", "title": "Visual Studio 2026 is now Generally Available!"}
+{"date": "2021-09-14", "platform": "linkedin", "type": "article", "url": "https://www.linkedin.com/pulse/want-create-more-inclusive-workplace-start-learning-9-silver", "title": "Want to create a more inclusive workplace? Start learning these 9 non-technical "}

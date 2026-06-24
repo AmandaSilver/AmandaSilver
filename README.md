@@ -57,3 +57,11 @@ For years I helped sponsor [Microsoft MakeCode](https://makecode.com) — making
 
 If you want to know how I work and what I value, I keep a [Human User Guide](https://gist.github.com/AmandaSilver/b26c80e2e52341fb24a8b3d1181fcbbc).
 
+---
+
+## Say hi 👋
+
+<a href="./social-contributions/">
+  <img src="./social-contributions/social-contributions.svg" alt="Amanda's social contributions over the last year — a GitHub-style heatmap of LinkedIn, blog, and X posts" width="100%">
+</a>
+
