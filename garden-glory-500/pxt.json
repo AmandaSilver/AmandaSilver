@@ -1,0 +1,14 @@
+{
+    "name": "garden-glory-500",
+    "description": "Garden Glory 500 - a short forest-themed racing game for MakeCode Arcade and Meowbit",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ]
+}

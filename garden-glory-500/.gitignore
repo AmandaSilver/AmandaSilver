@@ -1,0 +1,7 @@
+node_modules/
+built/
+garden-glory-500.zip
+.pxt/
+pxt_modules/
+projects/
+tsconfig.json
